@@ -13,18 +13,6 @@ import java.io.IOException;
  */
 public class App extends Application {
 
-    /*@Override
-    public void start(Stage stage) throws IOException {
-        Scene scene = new Scene(loadFXML("PolynomialCalculator"));
-        stage.setScene(scene);
-        stage.show();
-    }
-
-    private static Parent loadFXML(String fxml) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Controller.App.class.getResource(fxml + ".fxml"));
-        return fxmlLoader.load();
-    }*/
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader myLoader = new FXMLLoader(getClass().getResource("/PolynomialCalculator.fxml"));
